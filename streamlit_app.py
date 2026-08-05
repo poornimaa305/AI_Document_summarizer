@@ -14,8 +14,13 @@ st.write("Upload a PDF, DOCX or TXT file and get an AI-generated summary using G
 # -----------------------------
 # Load Groq Client
 # -----------------------------
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 client = Groq(
-    api_key=st.secrets["GROQ_API_KEY"]
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 # -----------------------------
