@@ -54,14 +54,10 @@ AI_Document_Summarizer
 ├── requirements.txt
 ├── README.md
 ├── sample.txt
-└── assets
+
 ```
 
 ---
-
-## Screenshots
-
-(Add screenshots here)
 
 ---
 
