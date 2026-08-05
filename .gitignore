@@ -18,5 +18,4 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Streamlit Secrets
-.streamlit/secrets.toml
+
